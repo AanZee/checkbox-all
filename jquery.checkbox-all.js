@@ -1,18 +1,11 @@
-// jquery.checkbox-all.js
-// ------------------------------------------------------
-// Author: Jeroen Ransijn
-// Company: Aan Zee
-// Usage:
-// $('.checkbox-all').checkboxAll();
-// Description:
-// - [x] All
-// - [ ] Checkbox A
-// - [ ] Checkbox B
-// - [ ] Checkbox C
-// Within a group of checkboxes where one is "All"
-// - Check "off" the All checkbox and all other are checked "on"
-// - Check "on" the All checkbox while other checkboxes are on and they will check "off"
-// - Check all A,B,C "off" while All is "off" too and All will check "on"
+/**
+ * jquery.filter-list.js
+ * ------------------------------------------------------
+ * Author: Jeroen Ransijn
+ * Company: Aan Zee
+ * Version: 0.1.0
+ * Usage: $('.checkbox-all').checkboxAll();
+ */
 ;(function (root, $, undefined) {
 	"use strict";
 
@@ -24,7 +17,8 @@
 		this.element = element;
 		this.$element = $(this.element);
 
-		this.options = $.extend( {}, defaults, options) ;
+		// No options yet
+		this.options = $.extend( {}, defaults, options);
 
 		this._defaults = defaults;
 		this._name = pluginName;
