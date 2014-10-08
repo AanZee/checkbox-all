@@ -1,5 +1,5 @@
 # jquery.input-stepper.js
-> Create a checkbox to toggle a whole group withe ase [Check it out on JSFiddle](http://jsfiddle.net/jeroen_ransijn/px38g556/)
+> Create a checkbox to toggle a whole group withe ease [Check it out on JSFiddle](http://jsfiddle.net/jeroen_ransijn/px38g556/)
 
 ## Features
 - Check "off" the All checkbox and all other are checked "on"
