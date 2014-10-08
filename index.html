@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>jquery.checkbox-all.js examples</title>
+</head>
+<body>
+	<h1>All is checked</h1>
+	<label><input type="checkbox" name="group-1" class="checkbox-all" checked> All</label>
+	<label><input type="checkbox" name="group-1"> Checkbox A</label>
+	<label><input type="checkbox" name="group-1"> Checkbox B</label>
+	<label><input type="checkbox" name="group-1"> Checkbox C</label>
+
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+	<script src="jquery.checkbox.all.js"></script>
+	<script>
+		$(function () {
+			// Document ready
+			$('.checkbox-all').checkboxAll();
+		});
+	</script>
+</body>
+</html>
